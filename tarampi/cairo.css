@@ -1,0 +1,10 @@
+#id_experiment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
