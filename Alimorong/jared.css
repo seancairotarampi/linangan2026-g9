@@ -1,0 +1,42 @@
+header {
+    padding: 20px;
+    background-color: #f8f8f8;
+    align-items: center;
+}
+img {
+    width: 300px;
+}
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+div {
+    text-align: center;
+    align-items: center;
+}
+.characterProfile {
+    background-color: #4455dd;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.characterProfile .character {
+    padding: 10px;
+    border: 1px solid black;
+}
+#ichika {
+    background-color: #33aaee;
+}
+#saki {
+    background-color: #ffdd44;
+}
+#honami {
+    background-color: #ee6666;
+}
+#shiho {
+    background-color: #bbdd22;
+}

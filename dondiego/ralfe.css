@@ -1,0 +1,8 @@
+box {
+    color: blue;
+    display: flex;
+    border: solid;
+    align-items: center;
+    justify-content: center;
+
+}
