@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 1000px color black;
+    border-style: solid;
+    border-radius: 1000px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
