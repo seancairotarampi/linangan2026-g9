@@ -7,7 +7,7 @@ h2 {
 }
 
 .container {
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: center;
