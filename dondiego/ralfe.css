@@ -1,8 +1,23 @@
-box {
-    color: blue;
-    display: flex;
-    border: solid;
-    align-items: center;
-    justify-content: center;
+.holder {
+    position: relative;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: blue;
+    background-color: cyan;
+    border: solid 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
 }

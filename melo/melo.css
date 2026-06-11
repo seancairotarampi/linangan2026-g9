@@ -1,7 +1,66 @@
-.coolDiv {
-  height: 500px;
-  border: 3px solid blueviolet;
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+}
+
+.winter {
   display: flex;
+  background-color: #a6a6e7;
+  border: 3px solid #8780c4;
+  border-bottom: 6px solid #44498d;
+  border-left: 3px solid #44498d;
   justify-content: center;
   align-items: center;
+  width: 75px;
+  height: 50px;
+}
+
+.spring {
+  display: flex;
+  background-color: #e7a6cc;
+  border: 3px solid #39a075;
+  border-bottom: 6px solid #35804e;
+  border-left: 3px solid #35804e;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 50px;
+}
+
+.summer {
+  display: flex;
+  background-color: #f7e376;
+  border: 3px solid #df8f6f;
+  border-bottom: 6px solid #a56b6b;
+  border-left: 3px solid #a56b6b;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 50px;
+}
+
+.autumn {
+  display: flex;
+  background-color: #eb644c;
+  border: 3px solid #a03947;
+  border-bottom: 6px solid #572121;
+  border-left: 3px solid #572121;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 50px;
 }
